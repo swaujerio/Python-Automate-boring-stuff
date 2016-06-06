@@ -1,0 +1,59 @@
+CHAPTER 1 QUESTIONS
+1) Operators *, -, /, +
+   values 'hello', -88.8, 5
+
+2)variable - spam
+  string - 'spam'
+
+3) 3 data types are int, string and float
+
+4) An expression is made up of values and operators.
+   All expressions evaluate to a single value
+
+5) The difference between an expression and a statement
+   is that in a statement there is some sort of assignment
+   of a value to a variable
+
+6) bacon = 20
+   bacon + 1
+   bacon still has the value 20 because there is no
+   re-assignment of a new value to bacon to over-write the
+   old value
+
+7)'spam' + 'spamspam' = spamspamspam
+  'spam' * 3 = spamspamspam
+
+8) eggs is valid variable since it begins with a letter and
+   is not a Python keyaword
+   100 is invalid as a variable name because variabel names
+   cannot begin with a  number
+
+9) The functoisn for getting the interger, floating-point
+   number or string version of a variabel are int(), float()
+   and str()
+
+10) 'I have eatern ' + 99 + ' burritos.' causes an error
+    because you cannot add an int (99) to a string.
+
+Extra Credit
+According to www.python.org lsn() return the length or
+number of items of an object. The argument may be a sequence
+(e.g. a string, byte or a collection such as a dictionary or
+ set.
+
+
+round() -  round(number[, ndigits]) Return the floating point
+value number rounded to ndigits digits after the decimal point.
+If ndigits is omitted, it defaults to zero. The result is a
+floating point number.  Values are rounded to the closest multiple
+of 10 to the power minus ndigits; if two multiples are equally
+close, rounding is done away  from 0 (so, for example, round(0.5)
+is 1.0 and round(-0.5) is -1.0)
+Examples
+>>> round(78.88, 2)
+78.88
+>>> round(78.88, 1)
+78.9
+>>> round(3.14728, 2)
+3.15
+                                            
